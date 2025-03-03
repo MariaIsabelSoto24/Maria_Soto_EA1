@@ -28,7 +28,6 @@ class Actividad_1():
             f.write(str(datos))
         return True # booleano True (1) False (0)
 
-    #def graficar_rectas(self,recta_empinada, recta_plana, recta_abajo):
     def graficar_rectas(self,a, n,x):
         f = (a*x)**n
         print("funcion_calculo:",f)
