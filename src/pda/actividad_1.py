@@ -30,7 +30,6 @@ class Actividad_1():
 
     #def graficar_rectas(self,recta_empinada, recta_plana, recta_abajo):
     def graficar_rectas(self,a, n,x):
-        # recta_empinada 0.0, recta_plana 0.0, recta_abajo 0.0 0.0=float 0=int 6545646546 = double
         f = (a*x)**n
         print("funcion_calculo:",f)
 
