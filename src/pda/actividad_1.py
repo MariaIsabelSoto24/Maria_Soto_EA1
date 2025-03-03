@@ -9,7 +9,7 @@ class Actividad_1():
         sys.stdout.reconfigure(encoding='utf-8')
 
     def leer_api(self, url):
-        # El get()método envía una solicitud de GET a la url especificada.
+        
         response = requests.get(url)
         return response.json()
     
@@ -36,13 +36,9 @@ class Actividad_1():
 
 # vamos crea una intancia de la clase
 ingestion = Actividad_1()
-#datos_json = ingestion.leer_api("https://api.github.com/users/octocat")
-#"https://api.nbp.pl/api/exchangerates/tables/{table}/"
-#datos_json = ingestion.leer_api("https://api.nbp.pl/api/exchangerates/tables/B/")
 datos_json = ingestion.leer_api("https://www.amiiboapi.com/api/amiibo/?character=zelda&showusage")
 print("datos json:",datos_json)
 if ingestion.escribir_txt(nombre_archivo="entrega_actividad_1.txt",datos=datos_json):
     print("se creo el archivo txt")
-#print("esta es la ruta statica :",ingestion.ruta_static)
 for n in  range(0,10):
     ingestion.graficar_rectas(5, n, 5.4)
