@@ -5,7 +5,7 @@ import sys
 
 class Actividad_1():
     def __init__(self):
-        self.ruta_static="src/pad/static/"
+        self.ruta_static="src/pda/static/"
         sys.stdout.reconfigure(encoding='utf-8')
 
     def leer_api(self, url):
