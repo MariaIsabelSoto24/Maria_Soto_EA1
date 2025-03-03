@@ -34,7 +34,7 @@ class Actividad_1():
         f = (a*x)**n
         print("funcion_calculo:",f)
 
-# vamos crea una intancia de la clase
+
 ingestion = Actividad_1()
 datos_json = ingestion.leer_api("https://www.amiiboapi.com/api/amiibo/?character=zelda&showusage")
 print("datos json:",datos_json)
