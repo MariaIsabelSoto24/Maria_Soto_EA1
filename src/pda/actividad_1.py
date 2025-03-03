@@ -7,6 +7,7 @@ class Actividad_1():
     def __init__(self):
         self.ruta_static="src/pda/static/"
         sys.stdout.reconfigure(encoding='utf-8')
+        
 
     def leer_api(self, url):
         
@@ -26,7 +27,7 @@ class Actividad_1():
         with open(ruta_txt, 'w', encoding='utf-8') as f:
             json.dump(datos, f, ensure_ascii=False, indent=4)
             f.write(str(datos))
-        return True # booleano True (1) False (0)
+        return True 
 
     def graficar_rectas(self,a, n,x):
         f = (a*x)**n
