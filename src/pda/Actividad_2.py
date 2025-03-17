@@ -8,13 +8,13 @@ class ejercicios:
         datos = [(i, None) for i in range(1, 11)] 
         self.df= pd.DataFrame(data=datos,columns=["#ejercicios", "valor"])
         self.ruta_raiz=os.path.abspath(os.getcwd())
-        self.ruta_actividad_2 = "{}/SRC/pad/Entregables_actividad_2/".format(self.ruta_raiz)
+        self.ruta_actividad_2 = "{}/SRC/pda/Entregables_actividad_2/".format(self.ruta_raiz)
 
 
     def ejercicio_1(self):
         # Generar un array con valores desde 10 hasta 29
-        array_10_29 = np.arange(10,30)
-        self.df.iloc[0, 1] = ', '.join(map(str, array_10_29.tolist()))
+        arr1 = np.arange(10, 30)
+        self.df.iloc[0, 1] = ', '.join(map(str, arr1.tolist()))
 
     def ejercicio_2(self):
         # 2. Suma de una matriz 10x10 de unos.
