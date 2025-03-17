@@ -11,10 +11,10 @@ class ejercicios:
         self.ruta_actividad_2 = "{}/src/pda/Entregables_actividad_2/".format(self.ruta_raiz)
 
 
-    def ejercicio_1(self):
-        # Generar un array con valores desde 10 hasta 29
-        arr1 = np.arange(10, 30)
-        self.df.iloc[0, 1] = ', '.join(map(str, arr1.tolist()))
+    #def ejercicio_1(self):
+        #Generar un array con valores desde 10 hasta 29
+        #arr1 = np.arange(10, 30)
+        #self.df.iloc[0, 1] = ', '.join(map(str, arr1.tolist()))
 
     def ejercicio_2(self):
         # 2. Suma de una matriz 10x10 de unos.
@@ -262,7 +262,7 @@ class ejercicios:
 
 
     def ejecutar(self):
-        self.ejercicio_1()
+        #self.ejercicio_1()
         self.ejercicio_2()
         self.ejercicio_3()
         self.ejercicio_4()
@@ -288,4 +288,3 @@ class ejercicios:
 ene= ejercicios()
 ene.ejecutar()
 
-        
