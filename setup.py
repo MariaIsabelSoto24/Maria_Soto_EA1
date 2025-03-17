@@ -2,10 +2,10 @@
 from setuptools import setup,find_packages
 
 setup (
-    name= "sindy_baquero",
+    name= "Maria_Isabel_Soto",
     version= "0.0.1",
-    author= "Sindy Baquero",
-    author_email= "sindy.baquero@est.iudigital.edu.co",
+    author= "Maria Isabel Soto",
+    author_email= "maria.sotoio@est.iudigital.edu.co",
     description= "",
     py_modules= ["Entregable actividad 1 y 2"],
     install_requires= [
