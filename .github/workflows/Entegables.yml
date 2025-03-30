@@ -30,7 +30,7 @@ jobs:
         run: python SRC/pda/actividad_1.py
       - name: paso6 - Ejecutar Actividad_2
         run: python SRC/pda/Actividad_2.py
-      - name: paso6 - Ejecutar Actividad_3
+      - name: paso7 - Ejecutar Actividad_3
         run: python SRC/pda/Actividad_3.py
 
       - name: Commit and Push changes
