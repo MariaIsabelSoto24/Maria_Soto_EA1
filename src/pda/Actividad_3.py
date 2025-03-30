@@ -18,13 +18,13 @@ class ejercicios:
     def ejercicio1(self):
 
         # Crea un DataFrame frutas
-        frutas = pd.DataFrame({
+        fruta = pd.DataFrame({
             "Granadilla": [20],
             "Tomates": [50]})
         ruta_ej1 = os.path.join(self.ruta_Actividad_3, "Ejercicio_1.csv")
-        frutas.to_csv(ruta_ej1, index=False)
+        fruta.to_csv(ruta_ej1, index=False)
         self.df.loc[0, "valor"] = ruta_ej1
-        print(frutas)
+        print(fruta)
         print("********************************************************************")
 
     def ejercicio2(self):
