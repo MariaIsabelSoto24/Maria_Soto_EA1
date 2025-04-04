@@ -38,7 +38,7 @@ jobs:
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Entregas, EA 1, 2 y 3
+          commit_message: Entregas Actividades y Proyecto Integrador
           commit_user_name: Maria Isabel Soto [GitHub Actions]
           commit_user_email: maria.sotoio@est.iudigital.edu.co
           commit_author: Maria Isabel Soto <maria.sotoio@est.iudigital.edu.co>
